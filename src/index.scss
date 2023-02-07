@@ -1,0 +1,16 @@
+@import "bootstrap/dist/css/bootstrap.css";
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&display=swap");
+@import "./SASS/all";
+
+body {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $white;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

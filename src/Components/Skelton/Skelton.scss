@@ -1,0 +1,99 @@
+@import "../../SASS/variables";
+
+$opacity: 0.5;
+
+.skelton.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.9vw;
+  overflow: hidden;
+  position: relative;
+  opacity: $opacity;
+  overflow: hidden;
+
+  .card-skelton {
+    height: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: $light;
+    border-radius: 0.25rem;
+
+    .head-skelton {
+      width: 100%;
+      height: 140px;
+      background-color: $light-grey;
+    }
+
+    .body-skelton {
+      width: 100%;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+
+      .title-skelton {
+        width: 75%;
+        height: 1.25rem;
+        background-color: $light-grey;
+      }
+
+      .text-skelton {
+        width: 100%;
+        height: 0.75rem;
+        background-color: $light-grey;
+        margin-top: 1.625rem;
+      }
+
+      .text-skelton:last-child {
+        width: 60%;
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .motion {
+    position: absolute;
+    width: 60px;
+    height: 100%;
+    background-color: $white;
+    transform: skewX(-25deg);
+    filter: blur(8px);
+    animation: Motion 1.5s infinite ease-out;
+    opacity: 0.4;
+  }
+}
+
+.skelton.menu {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+
+  .circle-skelton {
+    width: 2.25rem;
+    height: 2.25rem;
+    background-color: $light-grey;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .motion {
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: $white;
+    transform: skewX(-25deg);
+    filter: blur(4px);
+    animation: Motion 1.5s infinite ease-out;
+    opacity: 0.6;
+  }
+}
+
+@keyframes Motion {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
+}

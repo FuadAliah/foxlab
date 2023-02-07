@@ -1,0 +1,15 @@
+@import "../../SASS/mediaQuery";
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.9vw;
+
+  @include Tablet {
+    grid-template-columns: auto auto;
+  }
+
+  @include Phone {
+    grid-template-columns: auto;
+  }
+}

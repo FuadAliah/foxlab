@@ -1,0 +1,87 @@
+@import "../../SASS/variables";
+@import "../../SASS/mediaQuery";
+
+.post {
+  @include Tablet {
+    min-height: fit-content;
+  }
+
+  @include Phone {
+    min-height: fit-content;
+  }
+
+  .card {
+    box-shadow: 0 2px 6px 0 rgba($black, 0.04);
+    height: 320px;
+    border: 1px solid $border;
+    transition: all 0.35s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: rgba(45, 45, 45, 0.02) 0px 2px 2px, rgba(49, 49, 49, 0.02) 0px 4px 4px, rgba(42, 42, 42, 0.02) 0px 8px 8px, rgba(32, 32, 32, 0.02) 0px 16px 16px, rgba(49, 49, 49, 0.02) 0px 32px 32px,
+        rgba(35, 35, 35, 0.02) 0px 64px 64px;
+    }
+
+    .details {
+      height: 268px;
+
+      .card-head {
+        height: 140px;
+        background-color: $light;
+        box-shadow: 0 1px 0 0 $border;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-start-start-radius: 0.25rem;
+        border-start-end-radius: 0.25rem;
+
+        img {
+          height: 80px;
+          width: 80px;
+          object-fit: cover;
+        }
+      }
+
+      .card-title {
+        font-size: 1rem;
+        font-weight: 600;
+        color: $dark-grey;
+      }
+
+      .card-text {
+        font-size: 0.875rem;
+        color: $warm-grey;
+        max-height: 63px;
+        overflow: hidden;
+      }
+    }
+    .card-footer {
+      margin: 0 15px 15px;
+      padding: 10px 0 0;
+      background-color: transparent;
+      border-top: 1px solid $border;
+      display: flex;
+      justify-content: space-between;
+
+      .bookmark {
+        cursor: default;
+        width: 17px;
+        height: 17px;
+
+        img {
+          width: 17px;
+          height: 17px;
+        }
+      }
+
+      .web-link {
+        img {
+          width: 17px;
+          height: 17px;
+        }
+      }
+    }
+  }
+}

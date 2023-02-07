@@ -1,0 +1,12 @@
+@import "./variables";
+
+input[type="search"] {
+  padding-left: 2.1rem;
+  background-color: $light;
+  border-color: $light-grey;
+
+  &::placeholder {
+    color: $warm-grey;
+    font-size: 0.875rem;
+  }
+}

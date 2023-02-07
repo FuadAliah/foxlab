@@ -1,0 +1,21 @@
+$Phone: 480px;
+$Tablet: 768px;
+$Desktop: 992px;
+
+@mixin Desktop {
+  @media only screen and (min-width: $Desktop) {
+    @content;
+  }
+}
+
+@mixin Tablet {
+  @media only screen and (max-width: $Tablet) and (min-width: $Phone) {
+    @content;
+  }
+}
+
+@mixin Phone {
+  @media only screen and (max-width: $Phone) {
+    @content;
+  }
+}

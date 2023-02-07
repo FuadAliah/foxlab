@@ -1,0 +1,84 @@
+@import "../../SASS/variables";
+@import "../../SASS/mediaQuery";
+
+.side {
+  position: fixed;
+  left: -75px;
+  top: 0;
+  width: 75px;
+  height: 100vh;
+  background-color: $white;
+  border-right: 1px solid $border;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  transition: all 0.25s ease-in-out;
+
+  &.open {
+    left: 0;
+  }
+
+  .menu {
+    z-index: 1;
+    // overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .items {
+      padding-top: 100px;
+
+      .item {
+        margin-bottom: 1rem;
+
+        .site-logo {
+          width: 44px;
+          height: 44px;
+          display: block;
+          border-radius: 50%;
+          overflow: hidden;
+          border: 4px solid $white;
+          display: flex;
+
+          &:hover {
+            box-shadow: 0 10px 14px 0 rgba($black, 0.15);
+            transform: translate(0, -5px);
+            transition: all 0.15s ease-out;
+          }
+
+          .logo-icon {
+            background-size: contain;
+            width: 36px;
+            height: 36px;
+          }
+        }
+      }
+    }
+  }
+  .pull-tab {
+    background-image: url(../../Assets/download.svg);
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 32px;
+    height: 131px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .arrow {
+      background-image: url(../../Assets/arrow.svg);
+      width: 10px;
+      height: 16px;
+      display: block;
+      transition: all 0.25s ease-in-out;
+
+      &.closed {
+        transform: scaleX(-1);
+      }
+    }
+  }
+}

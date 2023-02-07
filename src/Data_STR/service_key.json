@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pocket-design-fbec1",
+  "private_key_id": "9790332b7bd87ed137bc6b6b0098ced0e663e21c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCHujOEQEADwqVz\nk0AqTPUmyHXIG9YLxoHDZU3dXytXlf2nT8XUpKLSq7U3gGOvy/evgs6lbsNDqXrE\nXDGf7PDLL+uWtYtH5Mozqr16eLxZwHyqfNeNCy6pkG1u2VspoACYRMla2EqkKlsb\nGKd0CKY7Nfp63SNPgq5hCQj96emfbVcdSBMrpnjGYW7qs/PAiVd5p4lz2lVX5UE8\nkJVb50cFcSIEUiCnBa3AwjhSa4ah1QMtdFeqdDEJPvwiSkMJLNfzbBtF4Ni4D7zw\nVsCsq2N+4Hlw85L5mUrM++I2cQVDOoSFOZU6rEOI3v++Q97ySAdmSflpVP8/2VbS\nLZayoLjhAgMBAAECggEAAffu4FeoNgXALY1wrExib9YPc0AIGjKeVi2lc/T55XLM\n83zCM0PSArkvzybDC10rcfW1NowFM/mEyM1HgPjIQ0ImKhDm/LtyPU6YIesXXDvg\n8v4NiEOlwRrRo35uhouGBq9UtkcVygy9NobkgtfPRWOShu6nIPOVwN2HLluSolfH\nt/VXpSiWIxoy5VzZ/nLy3ky6qjvAZ+7/79GHAsLv/6KELh3qoCyrFyc6O1CLgovu\n3N8eWMo2Sn7APzOPGLAclOzh8mISEIP0OJa7xfFuz3z3lgee8ZKxYYcDASC9hUXK\nH21A72MxC0bJvj/pUkO88hjOtPg+5ZTpgxE2j/DUQwKBgQC7Vm6Sa8Uykekiw0dz\n3rvFVlU2RkHD2uOSOA602HGVe1AD0C6VQlVmaGepXYryLu3/wP13BEaCeIHm5YWN\nfePOPsYMR+tsdbV/Jx+W1t+T364RQfQrrdjS26LE+L8MewiMqFK/NuBw+g1S5pYA\nFhqtA10jN+f/FIj+pxUDq7Cv2wKBgQC5eUP+7ml6ACEIzfBgSgzHQ516YEC6gvUP\nWkyYY7FHzquau9sp3uLXfFvNKTAUfdNgZVUEfrSYbKMG+cHNC0vtjO6LFR3WN9f0\npp5azlWBiXDfOqhqnD7MLzBNR3W8crvCehcVZ4yuvs4rJiXWu5JuOg2dBSIpjuIp\nlFgaDj0k8wKBgQCDWSCBrOpAgKlTZFOu3BYPUG7CdRQbPFee54r4JWHOCv2ZDtf6\nct3pxX4Y86s+DsV0Ml4EmozNYazCtV6kTAXzT3QQnERmcUll84pkehecWJJ1KycF\nkQibHr/LFxTsrT7bUBFkXBeVXt0EqQO238ioUdl1nfcdk8pRsdg8EJ77TQKBgCJB\nS1WiIsjtjSxbHLIr+wAydLtNW6cW2LvlKZBbmTpx6S/C0k+BYtP5m9rgaIjgVFHR\nZUpXPHOKXPHE3w5Hr9ZH2SbG16Pg3HnK7CRJR3GNONOBuek2wkJj1L/xGsWbSyI3\n+ltxrIH5q4o8mXB3ZCwHfMwrTovuX8beJwdo6dIRAoGAVx/LBwsB+VNbstW+yGaz\n9mqGMRHySLBWT7bC/ELPDpPeKitrIJ1EO5nYZDOO6azATUB6L2v46hf32xAjLJNG\nx+hmATdohzN5oV7PZCqMHalloO+TvTYWSRW6/5VWwwulRQS5TyEaGofUjigO6Ji7\nI2PsEPi+Jm9rAFQJsFfbEJk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-q1qbm@pocket-design-fbec1.iam.gserviceaccount.com",
+  "client_id": "108981608784310229366",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-q1qbm%40pocket-design-fbec1.iam.gserviceaccount.com"
+}
